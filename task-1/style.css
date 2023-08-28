@@ -1,0 +1,40 @@
+body {
+    background-color: #1C1F26;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+
+#j-button {
+    width: 200px;
+    height: 200px;
+    border: none;
+    box-shadow: 0px 5px 10px 0px #1E9899;
+    border-radius: 10px;
+    background-color: #1C1F26;
+    padding: 0;
+    margin: 0;
+    will-change: transform;
+    transition: transform 0.3s;
+}
+
+#j-button:hover{
+    transform: scale(1.01);
+}
+
+#j-button.clicked{
+    box-shadow: inset 0px 5px 10px 0px #1E9899;
+}
+#j-button.clicked svg{
+    color: #1E9899;
+}
+
+
+#j-button svg {
+    width: 100px;
+    height: 100px;
+    color: dimgray;
+}
